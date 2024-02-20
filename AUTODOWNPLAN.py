@@ -1,10 +1,7 @@
 # ---------------------------------------------[IMPORT MODULE]---------------------------------------------------
-# Module für den Zugriff auf Dateien aus dem Internet
 import sys
 import time
-
 import requests
-# Modul zum Arbeiten mit Datum
 import datetime
 
 
