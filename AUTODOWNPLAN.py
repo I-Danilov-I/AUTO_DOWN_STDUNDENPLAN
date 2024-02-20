@@ -63,8 +63,10 @@ def download(week):
 
 
 # ---------------------------------------------[HAUPTPROGRAMM]---------------------------------------------------
-# STANDARD_URL Definieren und in Var. Speichern
-STANDARD_URL = "https://service.viona24.com/stpusnl/daten/US_IT_2022_Sommer_FIAE_B_2023_abKW01.pdf"
+jahr = datetime.datetime.now().year
+jahr = str(jahr)
+
+STANDARD_URL = "https://service.viona24.com/stpusnl/daten/US_IT_2022_Sommer_FIAE_B_" + jahr + "_abKW01.pdf"
 
 print("_____ WILLKOMMEN zum STUNDENPLAN DOWNLOADER _____")
 print("Heutiges Datum:", datetime.date.today())
